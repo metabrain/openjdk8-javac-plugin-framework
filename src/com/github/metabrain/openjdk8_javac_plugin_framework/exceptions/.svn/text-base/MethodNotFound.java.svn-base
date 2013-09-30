@@ -1,0 +1,7 @@
+package exceptions;
+
+public class MethodNotFound extends RuntimeException {
+	public MethodNotFound(String methName) {
+		super("Method \""+methName+"\"not found in scope, exiting with error.") ;
+	} 
+} 
